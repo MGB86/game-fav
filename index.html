@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Game Favorito</title>
     <link rel="stylesheet" href="/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -16,7 +19,7 @@
                         <a href="#pq">Por que?</a>
                     </li>
                     <li>
-                        <a href="shop">Onde comprar?</a>
+                        <a href="#lojas">Onde comprar?</a>
                     </li>
                     <li>
                         <a href="ofavs">Outros favoritos</a>
@@ -43,18 +46,21 @@
             <div class="articles">
                 <article>
                     <h2>Estilo de Arte</h2>
+                    <img src="/img/Dark_Souls_3_-_E3_screenshot_4_1434385717.jpg" alt="art">
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae asperiores optio similique dolores aut a exercitationem non est iure magnam voluptatibus nemo, quos veritatis rem, dolorum natus fugiat officia animi!
                     </p>
                 </article>
                 <article>
                     <h2>Trilha sonora</h2>
+                    <img src="/img/stunning-dark-souls-3-screens-show-more-of-the-wor_drhq.png" alt="soundtrack">
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nemo, dolore explicabo qui asperiores aut in! Quas corporis earum atque quisquam consequatur voluptatem temporibus, aperiam esse! Eaque nisi minus similique?
                     </p>
                 </article>
                 <article>
                     <h2>Gameplay</h2>
+                    <img src="/img/undead-sample_qe41-1044x587.webp" alt="gameplay">
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, modi quisquam obcaecati veritatis eius qui nulla, libero voluptatem harum quod et quae excepturi? Possimus qui suscipit repudiandae consequuntur, dignissimos praesentium.
                     </p>
@@ -62,5 +68,77 @@
             </div>
         </div>
     </section>
+    <section id="lojas"> 
+        <div class="container">
+            <h1>Onde comprar?</h1>
+            <div class="shop">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="/img/Steam_icon_logo.svg.png" alt="steam">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="/img/playstation.png" alt="playstation">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="/img/xbox-logo-10696.png" alt="xbox">
+                        </a>
+                    </li>
+                </ul>
+            </div>  
+        </div>
+    </section>
+    <section id="ofavs">
+        <div class="container">
+            <h1>Outros Favoritos</h1>
+            <div class="articles">
+                <article>
+                    <img src="/img/elden-ring.webp" alt="elden-ring">
+                    <h2>Elden Ring</h2>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, nihil ab accusantium natus minima maxime iusto dolore eius! Rerum, ipsa optio. Dolore ipsa accusamus molestias quisquam optio libero fugiat cum!
+                    </p>
+                </article>
+                <article>
+                    <img src="/img/the-witcher-3.jpeg" alt="the-witcher-3">
+                    <h2>The Witcher 3 - Wild Hunt</h2>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, nihil ab accusantium natus minima maxime iusto dolore eius! Rerum, ipsa optio. Dolore ipsa accusamus molestias quisquam optio libero fugiat cum!
+                    </p>
+                </article>
+                <article>
+                    <img src="/img/the-last-of-us.webp" alt="the-last-of-us">
+                    <h2>The Last of Us</h2>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, nihil ab accusantium natus minima maxime iusto dolore eius! Rerum, ipsa optio. Dolore ipsa accusamus molestias quisquam optio libero fugiat cum!
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="seugame">
+        <div class="container">
+            <h1>Qual o seu game favorito?</h1>
+            <div id="seugame">
+                <form>
+                    <input type="text" placeholder="Seu nome" required>
+                    <input type="email" placeholder="Seu e-mail" required>
+                    <textarea placeholder="Seu game e por que?" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; Meu Game Favorito - Todos os direitos reservados 2024
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
